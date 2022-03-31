@@ -30,12 +30,20 @@ installation page (i.e. INSTALL.md).
 ### Using Data Augmenation technique example
 <a href="https://user-images.githubusercontent.com/48269869/160962853-71e5f255-fac5-4bc6-8288-3fc0a12b59a0.JPG" target="_blank">
 <img src="https://user-images.githubusercontent.com/48269869/160962853-71e5f255-fac5-4bc6-8288-3fc0a12b59a0.JPG" alt="IMAGE ALT TEXT HERE" width="480" height="300" border="10" />
+
+### Using Parameter Value
+Model : ResNet32 <br>
+epoch : 120epoch <br>
+momentum : 0.9 <br>
+batch_size : 100 <br>
+base_lr : 0.1 <br>
+optimize : adam_optimze <br>
   
 ### Experiment step
 <br>
-1. First train data & make base model. ( In my case, I use ResNet32 model, epoch = 120, momentum = 0.9 , batch_size = 100, base_lr = 0.1) <br>
+1. First train data & make base model. <br>
 2. Measurement of various coverage evaluation values at base model. <br>
-3. Make a data using data augmentaion. (I use dataaugmetaion like, point noise, spot noise, brightness change, weather change, zoom, rotation technique) <br>
+3. Make a data using data augmentaion. <br>
 4. Retrain using augmentation data & make retrain model. <br>
 5. Measurement of various coverage evaluation values at retrain model. <br>
 6. Filtering data like Null and Measuring Accuracy and Pearson's Correlation Coefficient
