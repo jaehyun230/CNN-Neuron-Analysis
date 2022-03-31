@@ -27,6 +27,10 @@ installation page (i.e. INSTALL.md).
 <a href="https://user-images.githubusercontent.com/48269869/158604449-15bd479e-89f6-4b06-8b61-0232cef89342.JPG" target="_blank">
 <img src="https://user-images.githubusercontent.com/48269869/158604449-15bd479e-89f6-4b06-8b61-0232cef89342.JPG" alt="IMAGE ALT TEXT HERE" width="480" height="300" border="10" />
 
+### Using Data Augmenation technique example
+<a href="https://user-images.githubusercontent.com/48269869/160962853-71e5f255-fac5-4bc6-8288-3fc0a12b59a0.JPG" target="_blank">
+<img src="https://user-images.githubusercontent.com/48269869/160962853-71e5f255-fac5-4bc6-8288-3fc0a12b59a0.JPG" alt="IMAGE ALT TEXT HERE" width="480" height="300" border="10" />
+  
 ### Experiment step
 <br>
 1. First train data & make base model. ( In my case, I use ResNet32 model, epoch = 120, momentum = 0.9 , batch_size = 100, base_lr = 0.1) <br>
