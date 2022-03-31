@@ -40,7 +40,7 @@ base_lr : 0.1 <br>
 optimize : adam_optimze <br>
   
 ### Experiment step
-<br>
+
 1. First train data & make base model. <br>
 2. Measurement of various coverage evaluation values at base model. <br>
 3. Make a data using data augmentaion. <br>
