@@ -26,4 +26,11 @@ installation page (i.e. INSTALL.md).
 # My Research & Experiment
 <a href="https://user-images.githubusercontent.com/48269869/158604449-15bd479e-89f6-4b06-8b61-0232cef89342.JPG" target="_blank">
 <img src="https://user-images.githubusercontent.com/48269869/158604449-15bd479e-89f6-4b06-8b61-0232cef89342.JPG" alt="IMAGE ALT TEXT HERE" width="480" height="300" border="10" />
- 
+
+### Experiment step
+First train data & make base model. ( In my case, I use ResNet32 model, epoch = 120, momentum = 0.9 , batch_size = 100, base_lr = 0.1
+Measurement of various coverage evaluation values at base model.
+Make a data using data augmentaion. (I use dataaugmetaion like, point noise, spot noise, brightness change, weather change, zoom, rotation technique)
+Retrain using augmentation data & make retrain model.
+Measurement of various coverage evaluation values at retrain model.
+Compare coverage evaluation values & accuracy
