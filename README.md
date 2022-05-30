@@ -33,11 +33,11 @@ installation page (i.e. INSTALL.md).
 
 ### Using Parameter Value
 * Model : ResNet32 <br>
-  * epoch : 120epoch <br>
-  * momentum : 0.9 <br>
-  * batch_size : 100 <br>
-  * base_lr : 0.1 <br>
-  * optimize : adam_optimze <br>
+* epoch : 120epoch <br>
+* momentum : 0.9 <br>
+* batch_size : 100 <br>
+* base_lr : 0.1 <br>
+* optimize : adam_optimze <br>
 
 ### Experiment step
 
