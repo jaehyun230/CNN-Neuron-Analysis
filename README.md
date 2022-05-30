@@ -32,13 +32,13 @@ installation page (i.e. INSTALL.md).
 <img src="https://user-images.githubusercontent.com/48269869/160962853-71e5f255-fac5-4bc6-8288-3fc0a12b59a0.JPG" alt="IMAGE ALT TEXT HERE" width="480" height="300" border="10" />
 
 ### Using Parameter Value
-Model : ResNet32 <br>
-epoch : 120epoch <br>
-momentum : 0.9 <br>
-batch_size : 100 <br>
-base_lr : 0.1 <br>
-optimize : adam_optimze <br>
-  
+* Model : ResNet32 <br>
+  * epoch : 120epoch <br>
+  * momentum : 0.9 <br>
+  * batch_size : 100 <br>
+  * base_lr : 0.1 <br>
+  * optimize : adam_optimze <br>
+
 ### Experiment step
 
 1. First train data & make base model. <br>
